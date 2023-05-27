@@ -28,13 +28,183 @@
 
         const numbers = [11, 2, 33, 44, 56, 6, 43, 664, 345]
         console.log('Numbers:', numbers)
-       console.log(numbers.length)
+        console.log(numbers.length)
 
         const fruits = ['Apple', 'mango', 'banana', 'chickoo', 'watermelon', 'pineapple', 'grapes', 'berrys', 'strawberry', 'blueberry', 'melon']
         console.log('FRUITS:', fruits)
         console.log('Number of fruits:', fruits.length)
         //console.log('Number Of Fruits:', fruits.length)
 
+        const name = ['MAHIMA', 'BHASKAR', 'PUNITA', 'ANAND', 'POOJA', 'BHAGWAN', 'SAKSHI', 'ANNU', 'KRISHNA', 'RAMA', 'KUTTE']
+        console.log('NAMES:', name)
+        console.log('NUMBER OF NAMES:', name.length)
+        console.log('\n')
+
+        console.log("-_-_-CREATING  AN  ARRAY  USING  SPLIT-_-_-")
+
+        let js = "JAVASCRIPT"
+        console.log(js.split(''))
+        //this any other things doesn't working expect the above one.....
+        // let js1 = js.split(',')
+        //console.log(js.split(','))
+        //console.log(js.split('#'))
+        //console.log(js1)
+        console.log('\n')
+
+        console.log("-_-_- ACCESSING  ARRAYS  ITEMS  USING  INDEX -_-_-")
+        const frutu = ['apple', 'banana', 'mango', 'lemon']
+        let first_frutu = frutu[0]
+        console.log(first_frutu)
+
+        let last_frutu = frutu.length - 1
+        let last = frutu[last_frutu]
+        console.log(last_frutu)
+        console.log(last)
+
+
+        const programmimg = ['c', 'c++', 'JS', 'JAVA', 'PHP', 'JSCRIPT', 'HTML', 'CSS']
+        console.log(programmimg)
+        console.log(programmimg.length)
+        console.log(programmimg[0])
+        console.log(programmimg[1])
+        console.log(programmimg[2])
+        console.log(programmimg[3])
+        console.log(programmimg[4])
+        console.log(programmimg[5])
+        console.log(programmimg[6])
+        console.log(programmimg[7])
+        console.log(programmimg[8])//undefined-cause index 8 is not exist till now in this array
+        programmimg[8] = 'react'//adding string on this index
+        console.log(programmimg)//now its a modify array
+        console.log('\n')
+
+        console.log("-_-_-Creating static values with fill-_-_-")
+        const eightempty = Array(8).fill('#')
+        console.log(eightempty)
+        console.log('\n')
+
+        console.log("-_-_- REVERSING  ARRAY  ORDER -_-_-")
+        const num3 = [1, 3, 4, 2, 3]
+        console.log(num3.reverse())
+        console.log('\n')
+
+        console.log("-_-_- Concatenating array using concat -_-_-")
+        const numi1 = [1, 6, 8]
+        const numi2 = [5, 9, 6]
+        const numi3 = numi1.concat(numi2)
+        console.log(numi3)
+        console.log('\n')
+
+        console.log("-_-_- Getting index an element in arr array -_-_-")
+        //indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
+        const numi4 = [1, 2, 3, 4, 5]
+        console.log(numi4.indexOf(5)) // -> 4
+        console.log(numbers.indexOf(0)) // -> -1
+        console.log('\n')
+
+
+        console.log('-_-_- SORTING  ELEMENTS  IN  ARRAYS -_-_-')
+        let webs = ['c', 'c++', 'javascript', 'java', 'redux']
+        let webu = webs.sort()
+        console.log(webu)
+        console.log(webu.reverse())
+
+        const webi = [webs, webu]
+        console.log(webi)
+        console.log(webi.length)
+
+
+        const num4 = [1, 2, 3]
+        const num5 = [4, 5, 6]
+        const num6 = [num4, num5]
+        console.log(num6)
+        console.log(num6[0])
+
+        console.log('\n\n\n')
+        console.log("-_-_-_- EXERCISE  NO:1 -_-_-_-")
+
+        const countries = [
+            'INDIA',
+            'KOREA',
+            'CANADA',
+            'GERMANY',
+            'FRANCE',
+            'DUTCH',
+            'RUSSIA',
+        ]
+
+        const webtechs = [
+            'HTML',
+            'CSS',
+            'JAVASCRIPT',
+            'C',
+            'C++',
+            'PYTHON',
+            'node'
+        ]
+
+        //question no.1
+        const arru = Array()
+        console.log(arru)
+
+        //question no.2
+        const num7 = [3, 54, 43, 53, 23, 5, 2, 432, 32, 3, 4]
+        console.log(num7)
+
+        //question no.3
+        console.log(num7.length)
+
+        //question no.4
+        console.log(num7[0])
+        console.log(num7[5])
+        console.log(num7[10])
+
+        //question no.6
+        const companies = ['FACEBOOK', 'GOOGLE', 'MICROSOFT', 'APPLE', 'IBM', 'ORACLE', 'AMAZON']
+
+        //question no.7
+        console.log(companies)
+
+        //question no.8
+        console.log('NUMBERS OF COMPANIES:', companies.length)
+
+        //question no.9
+        console.log(companies[0])
+        console.log(companies[3])
+        console.log(companies[7])
+
+        //question no.10
+        console.log(companies[0])
+        console.log(companies[1])
+        console.log(companies[2])
+        console.log(companies[3])
+        console.log(companies[4])
+        console.log(companies[5])
+        console.log(companies[6])
+        console.log(companies[7])
+
+        //question no.11
+        //console.log(companies.toString())
+
+        //...............ye vala nhi horha hai mujh se..............
+
+        /* let com = companies.toString()
+         let comu = com.toUpperCase()
+         console.log(comu)
+ 
+         console.log(comu[0])
+         console.log(comu[1])
+         console.log(comu[2])
+         console.log(comu[3])
+         console.log(comu[4])
+         console.log(comu[5])
+         console.log(comu[6])
+         console.log(comu[7])
+         */
+        //question no.12
+        console.log(`${companies} are big IT companies`)
+
+        //question no.13
 
     </script>
 </body>
